@@ -1,4 +1,4 @@
-package Jo_Seongjeong.BJ;
+package Jo_Seongjeong.Study_1주차;
 
 import java.util.Scanner;
 

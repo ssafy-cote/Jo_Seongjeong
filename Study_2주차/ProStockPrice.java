@@ -1,4 +1,4 @@
-package Jo_Seongjeong.Programmers;
+package Jo_Seongjeong.Study_2주차;
 
 import java.util.Arrays;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package Jo_Seongjeong.BJ;
+package Jo_Seongjeong.Study_3주차;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
