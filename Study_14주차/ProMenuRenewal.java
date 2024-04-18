@@ -20,12 +20,17 @@ import java.util.*;
  *
  * 문제 해결 프로세스
  * Map에 가능한 조합을 담을 것(course 길이에 맞게 다 뽑기)
+ * 조합으로 뽑은 배열을 정렬하기 위해, 배열 복사
+ * 문자열로 만들고 맵에 넣자
+ * 이미 있는 키값이면 +1
+ * 없으면 추가
  * key는 코스 요리 구성메뉴, value는 나온 횟수
  * value 기준 오름차순 정렬 후, 제일 높은 값 정답에 넣자(동률이면 다 넣기)
  * 반복
- *
+ * 정답 배열 오름차순 정렬 후 종료
+ * 
  * 고려한 시간 복잡도
- * 조합 최악 : 10C2 ~ 10C10 * 10 =
+ * 조합 최악 : (10C2+... + 10C10) * 10 = 10,020
  * */
 
 public class ProMenuRenewal {
@@ -67,7 +72,7 @@ public class ProMenuRenewal {
             String candidate = "";
             char[] sortCandidate = picked.clone();
             Arrays.sort(sortCandidate);
-            
+
             for(int i = 0; i < n; i++) {
                 candidate += sortCandidate[i];
             }
