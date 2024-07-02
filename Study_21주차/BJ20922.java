@@ -51,7 +51,7 @@ public class BJ20922 { // 메모리 : 37924kb, 시간 : 280ms
                 num[array[j]]++;
                 j++;
             }
-            max = Math.max(max, jgit a - i);
+            max = Math.max(max, j - i);
             num[array[i]]--;
             i++;
         }
