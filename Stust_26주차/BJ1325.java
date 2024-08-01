@@ -29,7 +29,7 @@ import java.util.*;
  * 3. 최대값에 대해 답을 도출할 때, 배열의 길이가 길다면, 큐 연산이 더 빠르다
  * */
 
-public class BJ1325 {
+public class BJ1325 { // 메모리 : 308096kb, 시간 : 9484ms
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
