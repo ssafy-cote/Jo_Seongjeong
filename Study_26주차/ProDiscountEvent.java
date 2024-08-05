@@ -1,4 +1,4 @@
-package Jo_Seongjeong.Stust_26주차;
+package Jo_Seongjeong.Study_26주차;
 
 import java.util.HashMap;
 import java.util.Map;
